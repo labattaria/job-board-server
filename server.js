@@ -8,7 +8,7 @@ import { resolvers } from './resolvers.js';
 import { getUser } from './db/users.js';
 import { createCompanyLoader } from './db/companies.js';
 
-const port = 9000;
+const port = process.env.PORT || 9000;
 
 const app = express();
 app.use(cors(), express.json(), authMiddleware);
@@ -31,9 +31,9 @@ async function getContext({ req }) {
 const apolloServer = new ApolloServer({ typeDefs, resolvers });
 await apolloServer.start();
 
-app.use('/graphql', apolloMiddleware(apolloServer, { context: getContext }));
+app.use('/', apolloMiddleware(apolloServer, { context: getContext }));
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
-  console.log(`GraphQL endpoint: http://localhost:${port}/graphql`);
+  // console.log(`GraphQL endpoint: http://localhost:${port}/graphql`);
 });
