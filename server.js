@@ -8,7 +8,7 @@ import { resolvers } from './resolvers.js';
 import { getUser } from './db/users.js';
 import { createCompanyLoader } from './db/companies.js';
 
-const port = process.env.PORT || 9000;
+const port = 9000;
 
 const app = express();
 app.use(cors(), express.json(), authMiddleware);
