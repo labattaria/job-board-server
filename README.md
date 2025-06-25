@@ -27,6 +27,8 @@ But you can use this server manually on your local machine
 
 The full list of dependencies can be found in the package.json file.
 
+---
+
 ## Contents
 
 - [Installation](#installation)
