@@ -20,12 +20,12 @@ But you can use this server manually on your local machine
 ## Used dependencies:
 
 - **GraphQL** - Core GraphQL library
-- **apollo-server** - GraphQL server that works with any GraphQL schema
+- **Apollo-server** - GraphQL server that works with any GraphQL schema
 - **SQLite** - A lightweight, self-contained SQL database engine. It stores the entire database in a single file
 - **JWT (JSON Web Token)** - A compact, URL-safe token format used for securely transmitting information between parties. Commonly used for authentication and authorization in web applications
 - **Nodemon** - A development utility that automatically restarts your Node.js server when it detects file changes
 
-The full list of dependencies can be found in the package.json file.
+The full list of dependencies can be found in the **package.json** file.
 
 ---
 
