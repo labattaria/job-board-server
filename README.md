@@ -10,8 +10,11 @@
 [![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)](#)
 
 This is the Express/GraphQL/Apollo server, designed and configured for the **Job Board Application**
+
 This server is only part of the application, the second part (the client) is located here:
+
 The app in this repo is deployed at [https://render.com](https://render.com), hosting public URL: [https://job-board-server-mq1m.onrender.com](https://job-board-server-mq1m.onrender.com)
+
 But you can use this server manually on your local machine
 
 ## Used dependencies:
