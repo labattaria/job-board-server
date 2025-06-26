@@ -11,7 +11,7 @@
 [![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)](#)
 [![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)](#)
 
-Це сервер Express/GraphQL/Apollo, створений та налаштований для додатку Job Board
+Це сервер Express/GraphQL/Apollo, створений та налаштований для додатку **Job Board**
 
 Цей сервер — лише частина додатку, друга частина (клієнтська) знаходиться в цьому репо: [Job Board Client](https://github.com/labattaria/job-board-client)
 
