@@ -13,7 +13,7 @@
 
 Це сервер Express/GraphQL/Apollo, створений та налаштований для додатку Job Board
 
-Цей сервер — лише частина додатку, друга частина (клієнтська) знаходиться тут:
+Цей сервер — лише частина додатку, друга частина (клієнтська) знаходиться в цьому репо: [Job Board Client](https://github.com/labattaria/job-board-client)
 
 Застосунок у цьому репозиторії розгорнуто за адресою: [https://render.com](https://render.com), за цією URL-адресою: [https://job-board-server-mq1m.onrender.com](https://job-board-server-mq1m.onrender.com)
 

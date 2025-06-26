@@ -13,7 +13,7 @@
 
 This is the Express/GraphQL/Apollo server, designed and configured for the **Job Board Application**
 
-This server is only part of the application, the second part (the client) is located here:
+This server is only part of the application, the second part (the client) is located at this repo: [Job Board Client](https://github.com/labattaria/job-board-client)
 
 The app in this repo is deployed at [https://render.com](https://render.com), hosting public URL: [https://job-board-server-mq1m.onrender.com](https://job-board-server-mq1m.onrender.com)
 
